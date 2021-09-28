@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+}
+
+.container {
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+
+.tile {
+    /* width: 100px;
+    height: 100px; */
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark {
+    font-size: 35px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.timer-container {
+    width: 200px;
+    height: 224px;
+    background-image: url("tomato.png");
+}
+
+#timer {
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.start-reset-button {
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    font-style: italic;
+}
